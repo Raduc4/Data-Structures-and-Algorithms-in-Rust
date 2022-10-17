@@ -94,7 +94,6 @@ mod tests {
         while i < 5 {
             log.append(format!("String Value {}", i));
             i += 1;
-            println!("{}", log.length)
         }
 
         assert_eq!(log.length, 5);
